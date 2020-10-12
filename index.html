@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Journal</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <main id="container__main">
+        <div class="container__header">
+            <section>
+                <h1 class="header__main">My Journal</h1>
+                <h1 class="header__sub">Matthew Machurek</h1>
+            </section>
+        </div>
+        <div>
+            <section class="container__form">
+            <h2 class="container__form--header">Daily Journal</h2>
+            <form action="" class="container__form--entries">
+                <fieldset>
+                    <!--This creates the date field-->
+                    <label for="journalDate">Date</label>
+                    <input type="date" name="journalDate" id="journalDate">
+                </fieldset>
+                <fieldset>
+                    <!--This creates the subject field-->
+                    <label for="coveredConcepts">Concepts Covered</label>
+                    <input type="text" name="coveredConcepts" id="coveredConcepts">
+                </fieldset>
+                <fieldset>
+                    <!--This creates the form field-->
+                    <label for="journalEntries">Journal Entry</label>
+                    <input type="textarea" name="journalEntries" id="journalEntries">
+                </fieldset>
+                <fieldset>
+                    <!--This creates a drop down-->
+                    <label for="theMood">My Mood</label>
+                    <select id="theMood">
+                        <option value="1">Choose</option>
+                        <option value="2">Confident</option>
+                        <option value="3">Feeling Good</option>
+                        <option value="4">Kinda Get It</option>
+                        <option value="5">I'm Lost</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <!--This creates the submit button-->
+                    <label for="submitEntry"></label>
+                    <input type="submit" name="submitEntry" id="submitEntry">
+                </fieldset>
+            </form>
+        </section>
+        </div>
+        <div class="container__journalEntryList">
+            <section>
+
+            </section>
+        </div>
+        <div class="container__footer">
+                <p>Matthew Machurek</p>
+                <a href="https://github.com/">Github.com</a>
+                <p>copyright 2020</p>
+        </div>
+    </main>
+
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>

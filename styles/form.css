@@ -1,0 +1,30 @@
+
+/*for the container around the form section*/
+.container__form {
+    border: 2px; color: black;
+}
+
+/*for the individual fields in the form section*/
+.container__form--entries {
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background: lightgray;
+}
+
+.container__form--header {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}*/
